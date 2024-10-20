@@ -1,0 +1,9 @@
+class use1 
+{ 
+   public static void main(String args[]) 
+   { 
+    pack.Addition obj=new pack.Addition(78.4567,45.12354);    
+    obj.sum(); 
+   } 
+   
+} 
