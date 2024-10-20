@@ -1,0 +1,19 @@
+//multiplication package pack; public class Multipli 
+{ 
+   private double x,y; 
+   public Multipli(double a,double b) 
+   {      x=a;      y=b; 
+   } 
+    public void mul() 
+   { 
+      System.out.println("mutiplication is:"+(x*y)); 
+    } 
+  } 
+
+//subtraction package pack; public class Subtraction 
+{ 
+   public static double sub(double a,double b) 
+    { 
+       return a-b; 
+    } 
+} 
