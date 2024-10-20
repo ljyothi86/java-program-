@@ -1,0 +1,14 @@
+public class addition
+{
+private double x,y;
+  public Addition( double a,double b)
+  {
+    x=a;
+    y=b;
+    }
+  public void sum()
+  {
+    System.out.println("sum is:"+(x+y));
+    }
+  }
+
