@@ -1,0 +1,26 @@
+//muitple inheritance through interfaces interface father 
+{
+float ht=6.2f; // public static final
+void height(); // public abstract
+}
+interface monther
+{
+float ht= 5.2f;
+void height();
+}
+class child implements father,monther
+{
+// child has average height of its parents
+public void height()
+{
+System.out.println("child height ="+(father.ht + monther.ht)/2);
+}
+}
+class multi1
+{
+public static void Main(String args[])
+{
+child c=new child ();
+c.height();
+}
+}
