@@ -1,0 +1,19 @@
+class divide
+{
+public static void main (String argu[])
+{
+try
+{
+int n=9,m=0;
+float d=n/m;
+System.out.printlin(d);
+}
+catch(Exception e)
+{
+System.out.println(e);
+}
+}
+}
+
+
+
