@@ -1,0 +1,53 @@
+import java.util.*;
+import java.util.*;
+class stackdemo
+{
+public static void main(String args[])
+{
+Stack<Integer>st=new Stack<Integer>();
+int element,pos,choice=0;
+BufferedReader br=new BufferedRfeader(new InputStreamReader(System.in));
+// menu
+while(choice<4)
+{
+System.out.println("stack operations");
+System.out.println("................");
+System.out.println("1.push element");
+System.out.println("2. pop element");
+System.out.println("3.search for element");
+System.out.println("4.exit");
+System.out.println("enter your chice:");
+choice=Integer.parseInt(br.readLine());
+switch(choice)
+{
+case1:
+System.out.println("enter element:");
+element=Integer.parseInt(br.readLine());
+st.push(element);
+break;
+case2:
+Integer i=st.pop();
+System.out.println("popped="+i);
+break;
+case3:
+System.out.println("enter element:");
+element=Integer.parseInt(br.readLine());
+pop=st.search(element);  if(pos==-1)
+System.out.println("element not found");
+else
+System.out.println("element found at position:"+pos);
+break;
+default:
+return;
+System.out.println(stack="+st);
+}
+}
+}
+
+
+
+
+
+
+
+
