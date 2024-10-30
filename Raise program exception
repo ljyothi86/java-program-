@@ -1,0 +1,36 @@
+ //raise an exception program
+import java.io.*;
+importjava.lang.*;
+class Atm
+{
+int mbal=1000;
+Atm(int bal)
+{
+if(bal<=mbal)
+{
+System.out.println("sucessfully withdrawn");
+}
+else
+{
+Atmex e=new Atmex("bal insuffcient");
+
+ }
+ }
+ }
+ class Atmex extends Exception
+ {
+ Atmex(String msg)
+ {
+ super(msg);
+ System.out.println(msg);
+ }
+ }
+ class sbi Atm
+ {
+ publlic staic void main(String args[])
+ {
+ Atm a=new Atm(5000);
+ }
+ }
+ 
+ 
