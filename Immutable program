@@ -1,0 +1,27 @@
+final class Immutable
+{
+private String name;
+private String desg;
+Immutable(String name String desg)
+{
+this .name =name ;
+this. desg=desg
+}
+public String getName()
+{
+returmn name;
+}
+public String get Desg()
+{
+return desg;
+}
+}
+class Immex
+{
+public static viod main (String args[])
+{
+Immutable obj=new immutable("john","testing");
+System.ou.println(name if the person:"+obj.get neame());
+System.out.println("dsignation of the person :"+obj.get Desg());
+}
+}
