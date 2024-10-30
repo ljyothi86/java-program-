@@ -1,0 +1,54 @@
+importjava.io.*;
+import java.util.*;
+class ||demo
+{
+public staic void main (String args[]) throws Io Exception
+{
+LinkedList<String> ||=new LinkedList<String>();
+||.add("america");  ||.add("japan");
+||.add("china");   ||.add("russia");
+System.out.printlin("list="+||);
+BufferedReader br= newBufferedReader(newInputStreamReader(System.in));
+String  element;
+int pos,choice=0;
+while(choice<4)
+{
+System.out.println("linked list operations");
+System.out.println("1. insert element");
+System.out.println("2.remove element");
+System.out.println("3.change element");
+System.out.println("4.exit");
+System.out.println("enter your choice:");
+choice=Integer.parseInt(br.readLine());
+switch(choice)
+{
+case 1:
+System.out.println("enter element:");
+element=br.readLine();
+System.out.println("enter position:");
+pos=Integer.parseInt(br.readLine());
+||.add(pos,element);
+break;
+ case 2:
+ System.out.println("enter position:");
+ pos=Integer. parseInt(br.readLine());
+ ||.remove (pos);
+ break;
+case 3:
+System.out.println("enter element");
+element=br.readLine();
+System.out.println("enter position");
+pos=Integer.parseInt(br.readLine());
+||.set(pos,element);
+break;
+default:
+ return;
+ }
+ System.out.println("list="+||);
+ }
+ }
+ }
+ 
+ 
+
+
