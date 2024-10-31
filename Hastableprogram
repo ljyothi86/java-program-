@@ -1,0 +1,29 @@
+import java.util.*;
+class Hashtabledemo
+{
+public static void main (String args[]) throws IoException
+{
+Hashtable<String,Integer>ht=new Hashtable< String Integer>();
+ht.put("sachin",77); ht.put("dhoni",66); ht.put("sehwag",150);
+ht.put("kohli",99); ht.put("yuvaraj",90);
+System.out.println("the player names are:");
+Enumeration e=ht.keys(); 
+while(e.has more elements())
+System.out .println(e.nextElement());
+BufferedReader br=new BufferedReader(newinputStreamReader(System.in));
+System.out.println("enter player name:");
+String name=br.readLine();
+Integer score=ht.get(name);
+if(score==null)
+System.out.println("player not found");
+else
+{
+int sc=score.intValue();
+System.out.println(name+"has scored run="+sc);
+}
+}
+}
+
+
+
+
