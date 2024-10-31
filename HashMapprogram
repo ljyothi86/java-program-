@@ -1,0 +1,39 @@
+import java.io.*;
+import java.util.*;
+class hashmapdemo
+{
+public static void main (String args[])throws IoExecption
+{
+BufferedReader br=new BufferedReader(newInputStreamReader(System.in));
+HashMap<String,Long>hm=newHashMap<String,Long>();
+String name,str;
+Long phno;
+while(true)
+{
+System.out.println("1.store the telephone entries");
+System.out.println("2.lookup for a phone number");
+System.out.printlnt(br.readLine());
+int n=Integer.parseInt(br.readLine());
+switch(n)
+{
+case 1:
+System.out.println("enter person name:");
+name=br.readline();
+System.out.println("enter phno:");
+str=br.readLine();
+phno=newLong(str);
+hm.put(name,phno);
+break;
+case 2:
+System.out.println("enter name:");
+name=br.readLine();
+phno=hm.get(name);
+System.out.println("phone no:"+phno);
+break;
+default:
+System.exit(0);
+}
+}
+}
+}
+
