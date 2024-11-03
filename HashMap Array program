@@ -1,0 +1,13 @@
+how to convertmap to list?
+import java.util.HashMap;
+import java.util.ArrayList;
+import java.util.Map;
+public static void main(String args[])
+{
+Map<Integer,String>myMap=new Hasmap<>();
+myMap.put(1,"mango"); myMap.put(2."apples");
+myMap.put(3,"grapes");myMap.put(4,"kiwi");
+System.out.println("list holding keys:"+keyList);
+System.out.println("list holding values:"+valueList);
+}
+}
